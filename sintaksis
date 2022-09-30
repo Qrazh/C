@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+
+void main()
+
+{
+	setlocale(LC_ALL, "Rus");
+
+	int Var,Var2;
+
+	cout << "Введите первое число: ";
+	cin >> Var;
+
+	cout << "Введите второе число: ";
+	cin >> Var2;
+
+	cout << "Число 1 = " << Var << "\tЧисло 2 = "<< Var2 << endl;
+
+
+}
